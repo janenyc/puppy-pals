@@ -2,7 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .logo {
@@ -39,4 +39,38 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.puppy{
+  font-size: 35px; 
+  color: black; 
+  cursor: pointer; 
+  margin: 10px 0; 
+  transition: color 0.3s ease; 
+}
+
+.puppy:hover {
+  color: blue; 
+}
+
+.puppy-details {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+.puppy-details h2 {
+  margin-bottom: 25px;
+}
+
+.puppy-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.puppy-details li {
+  font-size: 20px; 
+  margin-bottom: 5px;
 }
